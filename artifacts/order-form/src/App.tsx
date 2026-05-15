@@ -29,7 +29,7 @@ interface LocationData {
 }
 
 const TUJUAN_WA = "6281280093637";
-const SPREADSHEET_URL = "https://script.google.com/macros/s/AKfycbxyfhJnylM7npuzg3K7twMt7VgO5QU9FQBGPysGLssJThJpGlkMytTF530Asd4Z8kMw/exec"; // URL Google Apps Script Anda
+const SPREADSHEET_URL = "https://script.google.com/macros/s/AKfycbzGYY-BfsUKymzCpQC8cHlcPAgFkYQC2L7jIlsxQPCkhbbQ0P_UheazQ43YnkuN4XjVdA/exec"; // URL Google Apps Script Anda
 const NAMA_SHEET = "pesan3"; // Nama sheet tujuan di Spreadsheet
 
 const KEMASAN_OPSI = ["Palet Kayu", "Kertas Packing", "Plastik Wrap Saja"] as const;
