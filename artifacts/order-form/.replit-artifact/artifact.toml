@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Form Pemesanan"
+version = "1.0.0"
+id = "artifacts/order-form"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19898
+
+[services.development]
+run = "pnpm --filter @workspace/order-form run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/order-form", "run", "build" ]
+publicDir = "artifacts/order-form/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19898"
+BASE_PATH = "/"
