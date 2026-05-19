@@ -238,5 +238,5 @@ export const ITEM_LIST: readonly string[] = [
   "Wastafel MBG Custom",
   "X-Ray/ Viewer Dbl (PC)",
   "X-Ray/ Viewer Dbl (SS)",
-  "X-Ray/ Viewer Sgl (PC)",
+  "X-Ray/ Viewer Sgl (PC)"
 ];
