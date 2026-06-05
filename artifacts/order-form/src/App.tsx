@@ -28,7 +28,7 @@ interface LocationData {
   name: string;
 }
 
-const TUJUAN_WA = "6281280093637";
+const TUJUAN_WA = "6285123123770";
 const SPREADSHEET_URL = "https://script.google.com/macros/s/AKfycbzGYY-BfsUKymzCpQC8cHlcPAgFkYQC2L7jIlsxQPCkhbbQ0P_UheazQ43YnkuN4XjVdA/exec"; // URL Google Apps Script Anda
 const NAMA_SHEET = "pesan3"; // Nama sheet tujuan di Spreadsheet
 
